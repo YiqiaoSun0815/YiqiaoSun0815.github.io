@@ -1,0 +1,21 @@
+baseURL = 'https://YiqiaoSun0815.github.io/'
+languageCode = 'zh-cn'
+title = 'ACAMS · CFA · AI Learning Log'
+theme = "PaperMod"
+[menu]
+  [[menu.main]]
+    name = "ACAMS"
+    url = "/categories/acams/"
+    weight = 10
+  [[menu.main]]
+    name = "CFA"
+    url = "/categories/cfa/"
+    weight = 20
+  [[menu.main]]
+    name = "AI Tools"
+    url = "/categories/ai/"
+    weight = 30
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 40
