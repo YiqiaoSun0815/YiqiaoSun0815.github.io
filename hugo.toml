@@ -1,21 +1,37 @@
-baseURL = 'https://YiqiaoSun0815.github.io/'
-languageCode = 'zh-cn'
-title = 'ACAMS · CFA · AI Learning Log'
+baseURL = "https://YiqiaoSun0815.github.io/"
+languageCode = "zh-cn"
+title = "ACAMS · CFA · AI Learning Log"
 theme = "PaperMod"
+
+[params]
+  ShowReadingTime = true
+  ShowToc = true
+
 [menu]
   [[menu.main]]
-    name = "ACAMS"
-    url = "/categories/acams/"
+    name = "Compliance"
+    url = "/categories/compliance/"
     weight = 10
+
   [[menu.main]]
     name = "CFA"
     url = "/categories/cfa/"
     weight = 20
+
   [[menu.main]]
     name = "AI Tools"
     url = "/categories/ai/"
     weight = 30
+
+  [[menu.main]]
+    name = "Deutsch lernen"
+    url = "/categories/deutsch/"
+    weight = 40
+
   [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 40
+    weight = 50
+
+
+
