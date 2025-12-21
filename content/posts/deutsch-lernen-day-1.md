@@ -1,7 +1,7 @@
 ---
 title: "Deutsch lernen day 1"
 date: 2025-12-21
-categories: ["A1,wort"]
+categories: ["deutsch"]
 tags: ["Deutsch,A1,wort"]
 draft: false
 ---
