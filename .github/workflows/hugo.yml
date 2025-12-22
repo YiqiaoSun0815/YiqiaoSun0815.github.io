@@ -38,7 +38,7 @@ jobs:
 
       - name: Build
         run: |
-          hugo --minify --destination public
+          hugo --minify --buildFuture
 
       - name: Verify output
         run: |
