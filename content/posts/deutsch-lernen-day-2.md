@@ -1,7 +1,8 @@
+---
 title: "Deutsch lernen day 2"
 date: 2025-12-22
 categories: ["deutsch"]
-tags: ["Deutsch,A1,wort"]
+tags: ["Deutsch","A1","wort"]
 draft: false
 ---
 Wort auf heute:
