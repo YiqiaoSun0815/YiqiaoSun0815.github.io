@@ -4,34 +4,54 @@ title = "ACAMS · CFA · AI Learning Log"
 theme = "PaperMod"
 
 [params]
-  ShowReadingTime = true
-  ShowToc = true
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+ShowCodeCopyButtons = true
+ShowToc = true
+TocOpen = true
+
+[params.profileMode]
+enabled = true
+title = "Yiqiao Sun"
+subtitle = "Deutsch learning · AI notes · Zürich life"
+# imageUrl = "/img/avatar.jpg"
+# imageWidth = 140
+# imageHeight = 140
+
+[[params.profileMode.buttons]]
+name = "Deutsch"
+url = "/categories/deutsch/"
+
+[[params.profileMode.buttons]]
+name = "AI"
+url = "/categories/ai/"
 
 [menu]
-  [[menu.main]]
-    name = "Compliance"
-    url = "/categories/compliance/"
-    weight = 10
 
-  [[menu.main]]
-    name = "CFA"
-    url = "/categories/cfa/"
-    weight = 20
+[[menu.main]]
+name = "Compliance"
+url = "/categories/compliance/"
+weight = 10
 
-  [[menu.main]]
-    name = "AI Tools"
-    url = "/categories/ai/"
-    weight = 30
+[[menu.main]]
+name = "CFA"
+url = "/categories/cfa/"
+weight = 20
 
-  [[menu.main]]
-    name = "Deutsch lernen"
-    url = "/categories/deutsch/"
-    weight = 40
+[[menu.main]]
+name = "AI Tools"
+url = "/categories/ai/"
+weight = 30
 
-  [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 50
+[[menu.main]]
+name = "Deutsch lernen"
+url = "/categories/deutsch/"
+weight = 40
 
-
-
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 50

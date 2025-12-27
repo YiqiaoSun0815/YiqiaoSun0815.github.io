@@ -1,0 +1,144 @@
+/* Notion-ish Knowledge Base Style for PaperMod
+   Put this in: static/css/custom.css
+   Goal: obvious visual change -> block-based notes + database-like list.
+*/
+
+:root{
+  --kb-radius: 12px;
+  --kb-pad-y: 0.85em;
+  --kb-pad-x: 1.05em;
+  --kb-gap: 0.9em;
+
+  --kb-content-max: 900px;
+  --kb-list-max: 1100px;
+
+  --kb-block-bg: rgba(127,127,127,.06);
+}
+
+/* Wider overall content (more knowledge-base feel) */
+.main{ max-width: var(--kb-content-max) !important; }
+.home .main, .list .main{ max-width: var(--kb-list-max) !important; }
+
+/* Typography: slightly more “notes” */
+.post-content{
+  font-size: 18px !important;
+  line-height: 1.85 !important;
+}
+.post-content p{ margin: 0.75em 0 !important; }
+
+/* Headings as clear sections */
+.post-content h2{
+  margin-top: 2.0em !important;
+  margin-bottom: 0.7em !important;
+  padding-bottom: 0.35em !important;
+  border-bottom: 1px solid var(--border) !important;
+  letter-spacing: -0.01em;
+}
+.post-content h3{
+  margin-top: 1.5em !important;
+  margin-bottom: 0.55em !important;
+  letter-spacing: -0.01em;
+}
+
+/* Turn common markdown elements into “blocks” */
+.post-content p,
+.post-content ul,
+.post-content ol,
+.post-content pre,
+.post-content table,
+.post-content blockquote{
+  background: var(--kb-block-bg) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--kb-radius) !important;
+  padding: var(--kb-pad-y) var(--kb-pad-x) !important;
+  margin: var(--kb-gap) 0 !important;
+}
+
+/* Lists inside block: keep readable */
+.post-content ul, .post-content ol{ padding-left: 2.1em !important; }
+.post-content li{ margin: 0.25em 0 !important; }
+
+/* Blockquote as “callout” */
+.post-content blockquote{
+  border-left: 4px solid var(--border) !important;
+}
+
+/* Code blocks: cleaner, more Notion-like */
+.post-content pre{
+  overflow: auto;
+}
+
+/* Inline code: subtle */
+.post-content code{
+  font-size: 0.95em;
+}
+
+/* Tables: scrollable on narrow screens */
+.post-content table{
+  display: block;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+.post-content th, .post-content td{
+  padding: 0.65em 0.8em;
+  vertical-align: top;
+}
+
+/* Images: consistent card rounding */
+.post-content img{
+  border-radius: var(--kb-radius) !important;
+  display: block;
+  margin: 1.1em auto !important;
+  max-width: 100%;
+  height: auto;
+}
+
+/* TOC as a “panel” */
+.toc{
+  background: var(--kb-block-bg) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--kb-radius) !important;
+  padding: 0.9em 1em !important;
+}
+
+/* List pages: make entries look like database rows */
+.post-entry{
+  border: 1px solid var(--border) !important;
+  border-radius: var(--kb-radius) !important;
+  padding: 1.05em 1.15em !important;
+  margin: 0.9em 0 !important;
+  background: rgba(127,127,127,.03) !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+.post-entry:hover{
+  background: rgba(127,127,127,.06) !important;
+}
+
+/* Meta smaller, database-like */
+.entry-footer, .post-meta{
+  font-size: 0.92em !important;
+  opacity: 0.9;
+}
+
+/* Buttons (profile/home) slightly more Notion */
+.profile_inner .buttons a,
+.profile_inner .buttons button{
+  border-radius: 10px !important;
+  padding: 0.55em 0.95em !important;
+  border: 1px solid var(--border) !important;
+}
+
+/* Back to top: restrained */
+.top-link{
+  border-radius: 999px !important;
+  border: 1px solid var(--border) !important;
+  padding: 0.6em 0.85em !important;
+}
+
+/* Mobile: reduce width pressure */
+@media (max-width: 640px){
+  .main, .home .main, .list .main{ max-width: 100% !important; }
+  .post-content{ font-size: 17px !important; }
+  .post-content ul, .post-content ol{ padding-left: 1.6em !important; }
+}
