@@ -16,7 +16,7 @@ TocOpen = true
 [params.profileMode]
 enabled = true
 title = "Yiqiao Sun"
-subtitle = "Deutsch learning · AI notes · Zürich life"
+subtitle = "Financial professional·sDeutsch learning · AI notes · Zürich life"
 # imageUrl = "/img/avatar.jpg"
 # imageWidth = 140
 # imageHeight = 140
@@ -37,8 +37,8 @@ url = "/categories/compliance/"
 weight = 10
 
 [[menu.main]]
-name = "CFA"
-url = "/categories/cfa/"
+name = "Financial"
+url = "/categories/Financial/"
 weight = 20
 
 [[menu.main]]
