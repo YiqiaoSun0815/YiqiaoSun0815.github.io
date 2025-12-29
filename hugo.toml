@@ -38,7 +38,7 @@ weight = 10
 
 [[menu.main]]
 name = "Financial"
-url = "/categories/Financial/"
+url = "/financial/"
 weight = 20
 
 [[menu.main]]
