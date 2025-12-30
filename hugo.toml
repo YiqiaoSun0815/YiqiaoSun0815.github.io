@@ -14,7 +14,7 @@ ShowToc = true
 TocOpen = true
 
 [params.profileMode]
-enabled = true
+enabled = false
 title = "Yiqiao Sun"
 subtitle = "Financial professional·sDeutsch learning · AI notes · Zürich life"
 # imageUrl = "/img/avatar.jpg"
