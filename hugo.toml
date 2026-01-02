@@ -2,6 +2,7 @@ baseURL = "https://YiqiaoSun0815.github.io/"
 languageCode = "zh-cn"
 title = "ACAMS · CFA · AI Learning Log"
 theme = "PaperMod"
+mainSections = ["posts", "financial"]
 
 [params]
 defaultTheme = "auto"
