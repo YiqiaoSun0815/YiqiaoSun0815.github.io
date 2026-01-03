@@ -1,10 +1,12 @@
 ---
 title: "Deutsch lernen day 4"
-date: 2026-1-3
+date: "2026-01-03T09:00:00+01:00"
 categories: ["deutsch"]
-tags: ["Deutsch","A1","wort"]
+tags: ["Deutsch", "A1", "wort"]
 draft: false
 ---
+
+
 wort auf heute
 
 setzen – to set; to place;
