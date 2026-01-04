@@ -1,6 +1,6 @@
 ---
 title: "AI tools lerning day 4"
-date: 2026-1-4
+date: "2026-01-04T09:00:00+01:00"
 categories: ["ai"]
 tags: ["github,Hugo,page lesson"]
 draft: false
