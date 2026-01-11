@@ -33,7 +33,7 @@ url = "/categories/ai/"
 [menu]
 
 [[menu.main]]
-name = "Compliance"
+name = "Compliance Notes"
 url = "/categories/compliance/"
 weight = 10
 
