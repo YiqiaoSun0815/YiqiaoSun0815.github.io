@@ -1,5 +1,5 @@
 ---
-title: "Compliance-case-High AML risk"
+title: "Compliance-case-High-AML-risk"
 date: "2026-01-11T09:00:00+01:00"
 categories: ["compliance"]
 tags: ["compliance","case study"]
