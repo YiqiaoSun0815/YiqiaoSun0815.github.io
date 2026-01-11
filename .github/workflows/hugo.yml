@@ -38,7 +38,8 @@ jobs:
 
       - name: Build
         run: |
-          hugo --minify --buildFuture
+          rm -rf public
+          hugo --minify --buildFuture --cleanDestinationDir
 
       - name: Verify output
         run: |
