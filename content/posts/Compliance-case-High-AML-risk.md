@@ -5,10 +5,6 @@ categories: ["compliance"]
 tags: ["compliance","case study"]
 draft: false
 ---
-Here’s a draft you can use directly as a post. Tone is professional but not academic, more like a practitioner’s reflection.
-
----
-
 High Risk Doesn’t Always Mean “No” — A Practical AML Judgment Case in my daily work
 
 In my recent work, I assessed a corporate client that, at first glance, looked like high-risk customer that should be eliminated.

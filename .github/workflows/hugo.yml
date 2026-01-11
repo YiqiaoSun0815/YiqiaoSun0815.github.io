@@ -40,6 +40,7 @@ jobs:
         run: |
           rm -rf public
           hugo --minify --buildFuture --cleanDestinationDir
+          ls -R public | grep -i "compliance-case-1" || echo "OK: old page not in public"
 
       - name: Verify output
         run: |
