@@ -1,5 +1,5 @@
 ---
-title: "Deutsch lernen day 4"
+title: "Deutsch lernen day 5"
 date: "2026-01-14T09:00:00+01:00"
 categories: ["deutsch"]
 tags: ["Deutsch", "A1", "wort"]
