@@ -1,5 +1,5 @@
 ---
-title: "Building My Own Mental FOF"
+title: "Building My Own FOF"
 date: 2026-01-18T09:00:00+01:00
 draft: false
 categories: ["financial"]
